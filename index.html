@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
     <link rel="stylesheet" href="public/css/style.css" />
-    <link rel="stylesheet" href="public/css/glightbox.min.css" />
     <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -20,595 +19,103 @@
     />
     <!-- Javascript -->
     <script src="public/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script src="public/js/glightbox.min.js" defer></script>
-    <script src="public/js/script.js" defer></script>
     <title>Template Wedding 5</title>
   </head>
+  <style>
+    .header .isi {
+      text-align: center;
+      color: #733c3c;
+    }
+    .header .isi h1 {
+      font-family: "Quintessential", sans-serif;
+      font-weight: bold;
+    }
+  </style>
   <body>
-    <!-- Navbar Bawah -->
-    <ul class="navbar-bawah d-flex justify-content-around m-0">
-      <li>
-        <a href="#header">
-          <i class="bi bi-envelope-heart"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#pengantin">
-          <i class="bi bi-people-fill"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#gallery">
-          <i class="bi bi-images"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#acara">
-          <i class="bi bi-calendar2-event"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#kartu">
-          <i class="bi bi-envelope-paper-heart-fill"></i>
-        </a>
-      </li>
-    </ul>
-
-    <!-- Music -->
-    <div class="tombol-musik">
-      <audio id="track" src="public/musik/Sezairi-It's_You.mp3"></audio>
-      <i id="play-pause" class="bi bi-play-fill"> </i>
-    </div>
-
     <!-- Header -->
     <section class="header" id="header">
       <div
         class="container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
       >
         <!-- Desktop&Tablet -->
-        <div class="row">
-          <div class="col-lg-3 col-md-3 nmp">
-            <h1>Mark Robinson</h1>
-            <img
-              src="public/gambar/hiasan/bunga2.png"
-              class="bunga2"
-              alt="Bunga 2"
-            />
-          </div>
-          <div class="col-lg-6 col-md-6 fm">
-            <div class="d-flex justify-content-center align-items-center">
-              <img
-                src="public/gambar/foto/mempelai.jpg"
-                class="foto-mempelai"
-                alt="Mempelai"
-              />
+        <div class="container">
+          <div class="isi" style="padding-top: 9rem">
+            <h1 style="font-size: 3rem">Mark & Rolline</h1>
+            <h5 class="p-3">Kepada Bapak/Ibu/Saudara/I</h5>
+            <h1 style="font-size: 3rem">Aji & Nurul</h1>
+            <div class="w-50 mx-auto">
+              <h5 class="p-3">
+                Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir
+                ke acara pernikahan kami.
+              </h5>
             </div>
-            <img
-              src="public/gambar/hiasan/bunga1.png"
-              class="bunga1"
-              alt="Bunga 1"
-            />
-            <p class="th">
-              Atas karunia Allah SWT izinkan Kami mengundang sekaligus
-              mengharapkan doa restu dari bapak/ibu dalam acara pernikahan putra
-              & putri kami.
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-3 nmw">
-            <h1>Ralline Syah</h1>
+            <a href="isi.html" style="font-size: 3.5rem; color: #ffffff">
+              <i
+                class="bi bi-arrow-down-circle-fill"
+                style="font-weight: 700"
+              ></i>
+            </a>
           </div>
         </div>
-        <!-- Phone -->
+        <img
+          src="public/gambar/hiasan/bunga2.png"
+          class="bunga2"
+          alt="Bunga 2"
+          style="
+            max-width: 30%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          "
+        />
       </div>
+      <!-- Phone -->
       <div class="header-phone d-md-none d-lg-none d-xl-none d-xxl-none">
-        <h1 class="nmp">Mark Robinson</h1>
         <div class="d-flex justify-content-center align-items-center">
           <img
             src="public/gambar/foto/mempelai.jpg"
             class="foto-mempelai"
             alt="Mempelai"
+            style="max-width: 60%"
           />
           <img
             src="public/gambar/hiasan/bunga1.png"
             class="bunga1"
             alt="Bunga 1"
+            style="top: 1.5rem"
           />
         </div>
-        <h1 class="nmw">Ralline Syah</h1>
-        <p class="th">
-          Atas karunia Allah SWT izinkan Kami mengundang sekaligus mengharapkan
-          doa restu dari bapak/ibu dalam acara pernikahan putra & putri kami.
-        </p>
+        <div class="isi" style="padding-top: 4rem">
+          <h1 style="font-size: 2.5rem">Kelvin & Citra</h1>
+          <h5 class="p-3 fs-6">Kepada Bapak/Ibu/Saudara/I</h5>
+          <h1 style="font-size: 2.5rem">Zefri & Anita</h1>
+          <div class="text-center mx-auto">
+            <h5 class="p-3 fs-6">
+              Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir ke
+              acara pernikahan kami.
+            </h5>
+          </div>
+          <a
+            href="isi.html"
+            class="btn"
+            style="
+              background-color: #ffffff;
+              color: #733c3c;
+              border-radius: 50px;
+              box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+            "
+          >
+            Buka Undangan
+          </a>
+        </div>
         <img
           src="public/gambar/hiasan/bunga2.png"
-          class="bunga2_1"
+          class="bunga2"
           alt="Bunga 2"
-        />
-        <img
-          src="public/gambar/hiasan/bunga2.png"
-          class="bunga2_2"
-          alt="Bunga 2"
+          style="max-width: 45%; height: auto; position: absolute; left: 0"
         />
       </div>
-    </section>
-
-    <!-- Surat -->
-    <section class="surat" id="surat">
-      <div class="container">
-        <p>
-          “Dan Allah menjadikan bagimu pasangan (suami atau istri) dari jenis
-          kamu sendiri, menjadikan anak dan cucu bagimu dari pasanganmu, serta
-          memberimu rezeki dari yang baik-baik. Mengapa mereka beriman kepada
-          yang batil dan mengingkari nikmat Allah?”
-          <br /><br />
-          QS. An Nahl Ayat 72
-        </p>
-      </div>
-    </section>
-
-    <!-- Bunga 3 -->
-    <div class="d-flex justify-content-center align-items-center">
-      <img src="public/gambar/hiasan/bunga3.png" class="bunga3" alt="Bunga 3" />
-    </div>
-
-    <section class="lg1">
-      <!-- Pengantin -->
-      <section class="pengantin" id="pengantin">
-        <div class="container">
-          <h3 class="tcp">Calon Pengantin</h3>
-          <!-- Pengantin Pria -->
-          <div class="pengantin-pria">
-            <img
-              src="public/gambar/hiasan/bunga4.png"
-              class="bunga4"
-              alt="Bunga 4"
-            />
-            <img
-              src="public/gambar/hiasan/bunga5.png"
-              class="bunga5"
-              alt="Bunga 5"
-            />
-            <div class="d-flex justify-content-center align-items-center">
-              <img
-                src="public/gambar/foto/pria.jpg"
-                class="fpp"
-                alt="Pengantin Pria"
-              />
-            </div>
-            <h2>Mark Robinson</h2>
-            <p>Putra Pertama Dari</p>
-            <h5>Muhammad Iqbal, S.Pd, M.Pd</h5>
-            <h5>Sari Hutagalung, S.Pd, M.Pd</h5>
-          </div>
-          <!-- Pengantin Wanita -->
-          <div class="pengantin-wanita">
-            <img
-              src="public/gambar/hiasan/bunga4.png"
-              class="bunga4"
-              alt="Bunga 4"
-            />
-            <img
-              src="public/gambar/hiasan/bunga5.png"
-              class="bunga5"
-              alt="Bunga 5"
-            />
-            <div class="d-flex justify-content-center align-items-center">
-              <img
-                src="public/gambar/foto/wanita.jpg"
-                class="fpw"
-                alt="Pengantin Wanita"
-              />
-            </div>
-            <h2>Ralline Syah</h2>
-            <p>Putri Pertama Dari</p>
-            <h5>Akbar Suryadi, S.Pd, M.Pd</h5>
-            <h5>Mursyida, S.Kep, M.Kep</h5>
-          </div>
-        </div>
-      </section>
-
-      <!-- Gallery -->
-      <section class="gallery" id="gallery">
-        <img
-          src="public/gambar/foto/wi3.jpg"
-          class="background-gallery"
-          alt=""
-        />
-        <div class="container">
-          <h3 class="tgm">Gallery</h3>
-          <div class="d-flex justify-content-center align-items-center">
-            <img src="public/gambar/hiasan/bunga6.png" class="bunga6" alt="" />
-          </div>
-          <div class="list-images">
-            <!-- card 1 -->
-            <div class="card gallery1">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi15.jpg">
-                <img
-                  src="public/gambar/foto/wi15.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <!-- card 2 -->
-            <div class="card gallery2">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi5.jpg">
-                <img
-                  src="public/gambar/foto/wi5.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <!-- card 3 -->
-            <div class="card gallery3">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi12.jpg">
-                <img
-                  src="public/gambar/foto/wi12.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <!-- card 4 -->
-            <div class="card gallery4">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi9.jpg">
-                <img
-                  src="public/gambar/foto/wi9.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <!-- card 5 -->
-            <div class="card gallery5">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi7.jpg">
-                <img
-                  src="public/gambar/foto/wi7.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-            <!-- card 6 -->
-            <div class="card gallery6">
-              <a class="img-fluid glightbox" href="public/gambar/foto/wi14.jpg">
-                <img
-                  src="public/gambar/foto/wi14.jpg"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <!-- Acara -->
-    <section class="acara" id="acara">
-      <div class="container">
-        <!-- Tanngal -->
-        <div class="tanggal">
-          <h1>Acara Mulai Diselenggarakan Pada</h1>
-          <span>Minggu, 10 Februari 2023</span>
-        </div>
-        <!-- Jadwal -->
-        <div class="jadwal">
-          <div class="hari">
-            <h1>100</h1>
-            <span>Hari</span>
-          </div>
-          <!-- Waktu -->
-          <div
-            class="d-flex justify-content-evenly align-items-center text-center"
-          >
-            <div class="jam">
-              <h1>100</h1>
-              <span>Jam</span>
-            </div>
-            <div class="menit">
-              <h1>100</h1>
-              <span>Menit</span>
-            </div>
-            <div class="detik">
-              <h1>100</h1>
-              <span>Detik</span>
-            </div>
-          </div>
-          <!-- Tamu -->
-          <div class="tamu">
-            <h1>300 Tamu</h1>
-            <span>Merespon akan datang ke Acara</span>
-            <br />
-            <span>Ayo kirim respon Kamu juga</span>
-          </div>
-          <!-- Konfirmasi Kehadiran -->
-          <div class="kehadiran">
-            <button class="btn me-2">Konfirmasi Kehadiran</button>
-            <button class="btn">
-              <i class="bi bi-bell-fill"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="lg2">
-      <!-- Lokasi -->
-      <section class="lokasi" id="lokasi">
-        <div class="d-flex justify-content-center align-items-center">
-          <img
-            src="public/gambar/hiasan/bunga6.png"
-            class="bunga6"
-            alt="Bunga 6"
-          />
-        </div>
-        <!-- Akad Nikah -->
-        <div class="akad-nikah">
-          <img
-            src="public/gambar/hiasan/bunga9.png"
-            class="bunga9"
-            alt="Bunga 9"
-          />
-          <h3 class="tan">Akad Nikah</h3>
-          <div class="tdj">
-            <h4>Sabtu, 7 Mei 2023</h4>
-            <h4>Jam 09.00 - Selesai</h4>
-          </div>
-          <span
-            >Jl. Pepaya Raya, Kuranji, Kec. Kuranji, Kota Padang, Sumatera Barat
-            25173</span
-          >
-          <!-- Map Akad Nikah -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3010958429218!2d100.3577223147536!3d-0.9225826993269867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8b50f84e2df%3A0x6b663fb549733102!2sSTMIK%20Indonesia%20Padang!5e0!3m2!1sid!2sid!4v1656595492006!5m2!1sid!2sid"
-            class="google-map"
-            allowfullscreen="true"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <button type="submit" class="btn mx-auto">Lihat Lokasi</button>
-        </div>
-        <!-- Resepsi 1 -->
-        <div class="resepsi1">
-          <img
-            src="public/gambar/hiasan/bunga9.png"
-            class="bunga9"
-            alt="Bunga 9"
-          />
-          <h3 class="tan">Resepsi 1</h3>
-          <div class="tdj">
-            <h4>Sabtu, 7 Mei 2023</h4>
-            <h4>Jam 09.00 - Selesai</h4>
-          </div>
-          <span
-            >Jl. Pepaya Raya, Kuranji, Kec. Kuranji, Kota Padang, Sumatera Barat
-            25173</span
-          >
-          <!-- Map Akad Nikah -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3010958429218!2d100.3577223147536!3d-0.9225826993269867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8b50f84e2df%3A0x6b663fb549733102!2sSTMIK%20Indonesia%20Padang!5e0!3m2!1sid!2sid!4v1656595492006!5m2!1sid!2sid"
-            class="google-map"
-            allowfullscreen="true"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <button type="submit" class="btn mx-auto">Lihat Lokasi</button>
-        </div>
-        <!-- Resepsi 1 -->
-        <div class="resepsi2">
-          <img
-            src="public/gambar/hiasan/bunga9.png"
-            class="bunga9"
-            alt="Bunga 9"
-          />
-          <h3 class="tan">Resepsi 2</h3>
-          <div class="tdj">
-            <h4>Sabtu, 7 Mei 2023</h4>
-            <h4>Jam 09.00 - Selesai</h4>
-          </div>
-          <span
-            >Jl. Pepaya Raya, Kuranji, Kec. Kuranji, Kota Padang, Sumatera Barat
-            25173</span
-          >
-          <!-- Map Akad Nikah -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3010958429218!2d100.3577223147536!3d-0.9225826993269867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8b50f84e2df%3A0x6b663fb549733102!2sSTMIK%20Indonesia%20Padang!5e0!3m2!1sid!2sid!4v1656595492006!5m2!1sid!2sid"
-            class="google-map"
-            allowfullscreen="true"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <button type="submit" class="btn mx-auto">Lihat Lokasi</button>
-        </div>
-      </section>
-
-      <!-- Mengundang -->
-      <section class="mengundang" id="mengundang">
-        <div class="container">
-          <div class="d-flex justify-content-center align-items-center mt-5">
-            <img
-              src="public/gambar/hiasan/bunga6.png"
-              class="bunga6"
-              alt="Bunga 6"
-            />
-          </div>
-          <h3 class="ttm">Turut Mengundang</h3>
-          <div class="keluarga-pria">
-            <span>Keluarga Besar Mempelai Pria</span>
-            <h5 class="mt-4">Dr. Ayahanda M.Pd</h5>
-            <h5>Drs. Ibunda M.Pd</h5>
-            <h5>Dr. Dicky Panjaitan, M.Pd</h5>
-            <h5>M. Maxim Panjaitan M.Pd</h5>
-          </div>
-          <div class="keluarga-wanita mt-4">
-            <span>Keluarga Besar Mempelai Wanita</span>
-            <h5 class="mt-4">Dr. Ayahanda M.Pd</h5>
-            <h5>Drs. Ibunda M.Pd</h5>
-            <h5>Ir. Grabby Park M.Pd</h5>
-          </div>
-        </div>
-      </section>
-
-      <!-- Harapan -->
-      <section class="harapan" id="harapan">
-        <div class="container">
-          <p>
-            Suatu kehormatan dan kebahagiaan bagi kami apabila
-            Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan restu kepada
-            kedua mempelai.
-          </p>
-        </div>
-      </section>
-
-      <!-- Bunga 3 -->
-      <div class="d-flex justify-content-center align-items-center">
-        <img
-          src="public/gambar/hiasan/bunga3.png"
-          class="bunga3 mt-5"
-          alt="Bunga 3"
-        />
-      </div>
-
-      <!-- Kartu Ucapan -->
-      <section id="kartu">
-        <img
-          src="public/gambar/hiasan/bunga7.png"
-          class="bunga7"
-          alt="Bunga 7"
-        />
-        <div class="container kartu-ucapan" id="kartu-ucapan">
-          <h3 class="tku">Kirim Ucapan</h3>
-          <!-- Daftar Kartu -->
-          <div
-            class="daftar-kartu d-flex justify-content-center align-items-center mb-5"
-          >
-            <div class="card">
-              <div
-                class="kepala-card py-3 d-flex justify-content-center align-items-center sticky-top"
-              >
-                <i class="bi bi-chat-square-text me-2 fs-5"></i>
-                <h5 class="mb-0">Ucapan</h5>
-              </div>
-              <div class="kepala-body">
-                <img src="public/gambar/foto/person1.jpg" alt="person 1" />
-                <div class="nama ms-4">
-                  <h6>Roni Hidayat</h6>
-                  <p>Magelang, Jawa Tengah</p>
-                </div>
-                <p class="ms-auto">2hr ago</p>
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis a magni molestias eos et id vero eum totam
-                  ducimus sit labore optio, consequatur soluta adipisci?
-                  Reprehenderit deserunt iure itaque pariatur?
-                </p>
-                <hr />
-              </div>
-              <div class="kepala-body">
-                <img src="public/gambar/foto/person2.jpg" alt="person 2" />
-                <div class="nama ms-4">
-                  <h6>Bambang Uno</h6>
-                  <p>Bandung, Jawa Barat</p>
-                </div>
-                <p class="ms-auto">16hr ago</p>
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis a magni molestias eos et id vero eum totam
-                  ducimus sit labore optio, consequatur soluta adipisci?
-                  Reprehenderit deserunt iure itaque pariatur?
-                </p>
-                <hr />
-              </div>
-              <div class="kepala-body">
-                <img src="public/gambar/foto/person3.jpg" alt="person 3" />
-                <div class="nama ms-4">
-                  <h6>Rey Marc Hasibuan</h6>
-                  <p>Medan, Sumatera Utara</p>
-                </div>
-                <p class="ms-auto">1day ago</p>
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis a magni molestias eos et id vero eum totam
-                  ducimus sit labore optio, consequatur soluta adipisci?
-                  Reprehenderit deserunt iure itaque pariatur?
-                </p>
-                <hr />
-              </div>
-            </div>
-          </div>
-          <!-- * Tulis Pesan -->
-          <div
-            class="tulis-pesan d-flex justify-content-center align-items-center"
-          >
-            <div class="card">
-              <div
-                class="kepala-card py-3 d-flex justify-content-center align-items-center"
-              >
-                <i class="bi bi-chat-square-text me-2 fs-5"></i>
-                <h4 class="mb-0">Tulis Pesan</h4>
-              </div>
-              <!-- <hr /> -->
-              <form action="#" class="mx-auto">
-                <div class="mb-3">
-                  <label for="nama" class="form-label">Nama lengkap</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Nama lengkap"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="alamat" class="form-label">Alamat</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Alamat"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="moments" class="form-label"
-                    >Share the moments</label
-                  >
-                  <input
-                    type="file"
-                    class="form-control"
-                    placeholder="hahaha"
-                  />
-                </div>
-                <div class="mb-4">
-                  <label for="pesan" class="form-label">Tulis pesan</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Tulis pesan"
-                  />
-                </div>
-                <div
-                  class="mb-3 d-flex justify-content-center align-items-center"
-                >
-                  <button type="button" class="btn">Kirim Pesan</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer>
-        <img
-          src="public/gambar/hiasan/bunga8.png"
-          class="bunga8"
-          alt="Bunga 8"
-        />
-      </footer>
     </section>
   </body>
 </html>
