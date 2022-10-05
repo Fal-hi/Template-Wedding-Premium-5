@@ -126,7 +126,7 @@ ul.navbar-bawah li a:hover {
 }
 
 .header .nmp img.bunga2 {
-  max-width: 30%;
+  max-width: 20%;
   height: auto;
   position: absolute;
   left: 0;
@@ -147,7 +147,7 @@ ul.navbar-bawah li a:hover {
 
 .header .fm img.bunga1 {
   z-index: 1;
-  max-width: 35%;
+  max-width: 30%;
   height: auto;
   position: absolute;
   top: 10%;
@@ -291,17 +291,8 @@ img.bunga3 {
   margin-top: 14rem;
 }
 
-.gallery img.background-gallery {
-  z-index: 1;
-  width: 100%;
-  height: 760px;
-  object-fit: cover;
-  -o-object-fit: cover;
-  object-position: center;
-  -o-object-position: center;
-  overflow: hidden;
-  filter: brightness(50%);
-  -webkit-filter: brightness(50%);
+.gallery h3.tgm {
+  padding-top: 1rem;
 }
 
 .gallery img.bunga6 {
@@ -313,14 +304,6 @@ img.bunga3 {
   font-weight: bold;
   text-align: center;
   color: var(--warna2);
-}
-
-.gallery .container {
-  z-index: 2;
-  position: absolute;
-  top: 210rem;
-  left: 3%;
-  right: 3%;
 }
 
 .gallery .list-images {
@@ -807,23 +790,11 @@ footer img.bunga8 {
   .gallery {
     margin-top: 30rem;
   }
-  .gallery .container {
-    top: 185rem;
-  }
   .acara {
     margin-top: 5rem;
   }
   .lokasi {
     margin-top: 2rem;
-  }
-  .lokasi .akad-nikah img.bunga9 {
-    top: 289rem;
-  }
-  .lokasi .resepsi1 img.bunga9 {
-    top: 336rem;
-  }
-  .lokasi .resepsi2 img.bunga9 {
-    top: 383rem;
   }
   .kartu-ucapan .daftar-kartu .card .card-body {
     padding: 0 3rem 0 7rem;
@@ -863,14 +834,14 @@ footer img.bunga8 {
     padding: 7rem;
   }
   .pengantin .pengantin-pria img.bunga4 {
-    top: 1800px;
+    top: 1700px;
   }
   .pengantin .pengantin-pria img.bunga5 {
     max-width: 25%;
     top: 2190px;
   }
   .pengantin .pengantin-wanita img.bunga4 {
-    top: 2500px;
+    top: 2390px;
   }
   .pengantin .pengantin-wanita img.bunga5 {
     max-width: 25%;
@@ -879,15 +850,8 @@ footer img.bunga8 {
   .gallery {
     margin-top: 26rem;
   }
-  .gallery img.background-gallery {
-    height: 400px;
-  }
   .gallery img.bunga6 {
     width: 50%;
-  }
-  .gallery .container {
-    top: 201rem;
-    height: 400px;
   }
   .acara {
     margin-top: 5rem;
@@ -897,15 +861,6 @@ footer img.bunga8 {
   }
   .lokasi img.bunga6 {
     width: 40%;
-  }
-  .lokasi .akad-nikah img.bunga9 {
-    top: 302rem;
-  }
-  .lokasi .resepsi1 img.bunga9 {
-    top: 349rem;
-  }
-  .lokasi .resepsi2 img.bunga9 {
-    top: 396rem;
   }
   .mengundang img.bunga6 {
     margin-top: 0;
@@ -944,12 +899,15 @@ footer img.bunga8 {
   }
   .header .header-phone h1.nmw {
     text-align: right;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-right: 2rem;
+  }
+  .header p.th {
+    padding-top: 1rem;
   }
   .header .header-phone img.foto-mempelai {
     z-index: 2;
-    max-width: 65%;
+    max-width: 50%;
     height: auto;
     border-radius: var(--lengkungO);
     -webkit-border-radius: var(--lengkungO);
@@ -958,21 +916,21 @@ footer img.bunga8 {
     -o-border-radius: var(--lengkungO);
   }
   .header .header-phone img.bunga1 {
-    max-width: 95%;
+    max-width: 70%;
     height: auto;
     position: absolute;
-    top: 10rem;
-    left: 4%;
+    top: 6rem;
+    left: 15%;
   }
   .header .header-phone img.bunga2_1 {
-    max-width: 50%;
+    max-width: 35%;
     height: auto;
     position: absolute;
     bottom: 0;
     left: 0;
   }
   .header .header-phone img.bunga2_2 {
-    max-width: 50%;
+    max-width: 35%;
     height: auto;
     position: absolute;
     bottom: 0;
@@ -1004,47 +962,38 @@ footer img.bunga8 {
     font-weight: bold;
     margin-bottom: 3rem;
   }
+  .pengantin .pengantin-pria h2,
+  .pengantin .pengantin-wanita h2 {
+    margin-top: 3rem;
+  }
   .pengantin .pengantin-pria img.fpp,
   .pengantin .pengantin-wanita img.fpw {
     max-width: 55%;
   }
   .pengantin .pengantin-pria img.bunga4 {
-    max-width: 50%;
-    top: 1300px;
-    left: 50%;
+    display: none;
   }
   .pengantin .pengantin-pria img.bunga5 {
     top: 1700px;
   }
-
   .pengantin .pengantin-wanita {
     margin-top: 5rem;
   }
   .pengantin .pengantin-wanita img.bunga4 {
-    max-width: 50%;
-    top: 1895px;
-    left: 0;
+    display: none;
   }
   .pengantin .pengantin-wanita img.bunga5 {
-    top: 2290px;
+    top: 2200px;
   }
   .gallery {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
   .gallery img.bunga6 {
     width: 50%;
     margin-bottom: 0;
   }
-  .gallery img.background-gallery {
-    height: 785px;
-  }
   .gallery h3.tgm {
     font-weight: bold;
-  }
-  .gallery .container {
-    top: 172rem;
-    left: 0;
-    right: 0;
   }
   .gallery .list-images {
     grid-template-areas:
