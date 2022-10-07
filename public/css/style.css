@@ -312,9 +312,9 @@ img.bunga3 {
   padding: 1rem;
   display: grid;
   grid-template-areas:
-    "g1 g1 g2 g3"
-    "g1 g1 g6 g6"
-    "g4 g5 g6 g6";
+    "g1 g2 g3 g4"
+    "g1 g5 g6 g6"
+    "g7 g8 g6 g6";
 }
 
 .gallery .list-images .card {
@@ -997,11 +997,10 @@ footer img.bunga8 {
   }
   .gallery .list-images {
     grid-template-areas:
-      "g1 g1"
-      "g2 g3"
-      "g2 g3"
+      "g1 g2"
+      "g1 g3"
       "g4 g5"
-      "g4 g5"
+      "g7 g8"
       "g6 g6";
   }
   .acara {
